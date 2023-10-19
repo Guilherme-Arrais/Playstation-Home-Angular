@@ -1,0 +1,25 @@
+.bar{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 10px;
+  width: 100vw;
+  height: 60px;
+  background-color: aliceblue;
+}
+.bar>img{
+  width: 200px;
+  height: 40px;
+  margin-left: 15px;
+}
+.bar>ul{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  right: 10px;
+  font-size: 20pt;
+}
+.bar>ul>li{
+  margin-right: 100px;
+}

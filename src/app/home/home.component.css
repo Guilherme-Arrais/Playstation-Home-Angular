@@ -1,0 +1,12 @@
+.bottom_page{
+  position: relative;
+  width: 100vw;
+  height: auto;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,6,95,1) 45%, rgba(9,9,121,1) 57%, rgba(4,62,183,1) 77%, rgba(4,113,189,1) 92%, rgba(3,137,205,1) 99%, rgba(2,165,224,1) 100%, rgba(0,212,255,1) 100%);
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+flex-wrap: wrap;
+
+}

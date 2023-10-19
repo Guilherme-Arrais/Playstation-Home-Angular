@@ -1,0 +1,41 @@
+.card_game{
+  position: relative;
+  margin-top: 60px;
+  width: 380px;
+  height: 450px;
+  background-color: aliceblue;
+
+}
+.card_game:hover{
+  scale: 1.1;
+  transition: 0.2s;
+}
+img{
+  background-color: brown;
+  width: 380px;
+  height: 450px;
+}
+.description{
+  background-color: #000000c5;
+  color: aliceblue;
+  width: 380px;
+  height: 80px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+
+
+}
+.description>ul{
+  position: absolute;
+  bottom: 3px;
+  left: 5px;
+  font-size: 18pt;
+}
+.description>p{
+  position: absolute;
+  right: 4px;
+  bottom: 3px;
+  font-size: 20pt;
+}
